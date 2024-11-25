@@ -138,10 +138,10 @@
         android:src="@drawable/visa"
         app:layout_constraintBottom_toBottomOf="@+id/bottom_navigation"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintHorizontal_bias="0.031"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.085" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -161,7 +161,7 @@
         android:id="@+id/imageView4"
         android:layout_width="35dp"
         android:layout_height="35dp"
-        android:src="@drawable/mastercard"
+        android:src="@drawable/Mastercard"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.06"
@@ -188,7 +188,7 @@
         android:id="@+id/imageView3"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/gpay"
+        android:src="@drawable/Gpay"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
@@ -281,15 +281,6 @@
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="2dp"
-        tools:layout_editor_absoluteY="-1dp">
-
-        <!-- Este es el ImageButton que queremos mover -->
-    </FrameLayout>
 
     <RadioButton
         android:id="@+id/radioPaypal"
