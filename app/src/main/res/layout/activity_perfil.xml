@@ -164,11 +164,9 @@
         android:id="@+id/imageView10"
         android:layout_width="49dp"
         android:layout_height="44dp"
-<<<<<<< HEAD
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="592dp"
-=======
         android:layout_marginTop="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView15"
@@ -176,8 +174,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView9"
         app:layout_constraintVertical_bias="0.018"
-        tools:ignore="MissingConstraints"
->>>>>>> 6de82aa093b43f217ba52a246b1576da6126d4c0
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView

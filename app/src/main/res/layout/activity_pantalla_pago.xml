@@ -11,18 +11,9 @@
     >
 
 
-    <!-- Fuente --><![CDATA[
-        android:textStyle="SemiBold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.063" />
 
-    ]]>
 
     <!-- TITULO DE METODO DE PAGO-->
-
 
     <TextView
         android:id="@+id/textView4"
@@ -101,14 +92,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.548" />
 
-    <!-- Tamaño de letra -->
-        android:fontFamily="Montserrat"   <!-- Fuente -->
-        android:textStyle="SemiBold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.117" />
+
 
 
    <!--METODO DE PAGO CASH-->
@@ -132,21 +116,6 @@
 
 
     <ImageView
-<<<<<<< HEAD
-        android:layout_width="49dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="380dp"
-        android:src="@drawable/visa"
-        app:layout_constraintBottom_toBottomOf="@+id/bottom_navigation"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.031"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.085" />
-
-    <ImageView
-=======
->>>>>>> 3bff4f474fb172feaf36ab2ea2680f2b47a5a10d
         android:id="@+id/imageView5"
         android:layout_width="30dp"
         android:layout_height="30dp"
@@ -164,7 +133,7 @@
         android:id="@+id/imageView4"
         android:layout_width="35dp"
         android:layout_height="35dp"
-        android:src="@drawable/Mastercard"
+        android:src="@drawable/mastercard"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.06"
@@ -192,7 +161,7 @@
         android:id="@+id/imageView3"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:src="@drawable/Gpay"
+        android:src="@drawable/gpay"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
@@ -270,24 +239,7 @@
         app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.998" >
-
-
-        <ImageButton
-            android:id="@+id/movable_button"
-            android:layout_width="238dp"
-            android:layout_height="64dp"
-            android:layout_gravity="center"
-            android:background="@android:color/transparent"
-            android:src="@drawable/infoicono"
-            tools:ignore="DuplicateIds" />
-
-
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
-
-
-<<<<<<< HEAD
-=======
+        app:layout_constraintVertical_bias="0.998" />
     <ImageView
         android:layout_width="49dp"
         android:layout_height="42dp"
@@ -297,7 +249,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
->>>>>>> 3bff4f474fb172feaf36ab2ea2680f2b47a5a10d
+
     <RadioButton
         android:id="@+id/radioPaypal"
         android:layout_width="wrap_content"
@@ -358,18 +310,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.645" />
 
-    <!-- MENU DE NAVEGACIÓN DE ( BOTON CON IMAGEN DE - HOME - )-->
-
-    <!-- Cambia este color al verde que quieras -->
-        app:itemIconTint="@color/white" <!-- Color de los íconos -->
-        app:itemTextColor="@color/white" <!-- Color del texto --><![CDATA[
-        app:menu="@menu/bottom_nav_menu" />
 
 
-
-
-
-    ]]>
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

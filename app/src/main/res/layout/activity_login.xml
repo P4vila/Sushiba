@@ -5,9 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"> <!-- Fondo blanco -->>
-
-
-
     <!-- ImageView debe estar sobre el View -->
 
     <!-- TextView sigue a la misma jerarquía -->
